@@ -11,34 +11,40 @@ Control the bots with chat commands
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+git clone https://github.com/downj05/IrdidiumStresser.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+cd my-project
 ```
 
 Install dependencies
 
 ```bash
-  npm install
+npm install
 ```
 
 Start the server
 
 ```bash
-  node index.js -h HOST -p PORT -c COUNT -t DELAY -f TRUE/FALSE
+ node index.js -h HOST -p PORT -c COUNT -t DELAY -f TRUE/FALSE
 ```
 
 
 
 ## Usage/Examples
 
+Use
+```bash
+node index.js --help
+```
+to see available arguments.
+
 Example:
 ```bash
-node test.js -h localhost -p 25565 -c 3 -t 500 -f true
+node index.js -h localhost -p 25565 -c 3 -t 500 -f true
 ```
 
 Chat Commands:\
